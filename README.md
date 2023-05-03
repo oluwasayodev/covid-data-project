@@ -6,13 +6,13 @@ The data analyzed in this project is a sample data related to recorded cases of 
 | Column         | Description                                             |  Type   |
 |----------------|---------------------------------------------------------|---------|
 |serialNumber    |A unique serial number for the observation record        |Integer  |
-|observationDate |The date when the observation was made.                  |String   |
+|observationDate |The date when the observation was made.                  |Date     |
 |state           |The province or state in which the observation was made  |String   |
-|country         |The country or region which the observation was made.    |String.  |
-|lastUpdated     |The date and time observation was last updated.          |String.  |
-|confirmed       |The number of confirmed cases that were observed.        |String.  |
-|deaths          |The number of deaths that were observed                  |.        |
-|recovered       |The number of recoveries that were observed.             |.        |
+|country         |The country or region which the observation was made.    |String   |
+|lastUpdated     |The date and time observation was last updated.          |Date     |
+|confirmed       |The number of confirmed cases that were observed.        |Integer  |
+|deaths          |The number of deaths that were observed                  |Integer  |
+|recovered       |The number of recoveries that were observed.             |Integer  |
 
 
 ## Project Setup
